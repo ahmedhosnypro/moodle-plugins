@@ -26,6 +26,8 @@ namespace format_remuiformat\observers;
 
 use stdClass;
 
+defined('MOODLE_INTERNAL') || die();
+
 class course_module {
     /**
      * Course module create event
